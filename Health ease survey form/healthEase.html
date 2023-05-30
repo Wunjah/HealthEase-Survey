@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthEase Survey</title>
+    <link rel="stylesheet" href="healthEase.css">
+</head>
+<body>
+    <h1>HealthEase Survey Form</h1>
+    <p>Hi there, can you please answer the questions below:</p>
+    <form>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required placeholder="please enter your age"><br>
+      
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">--Please choose an option--</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br>
+      
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation"><br>
+      
+        <label for="lifestyle">Describe your current lifestyle:</label>
+        <textarea id="lifestyle" name="lifestyle"></textarea><br>
+      
+        <label for="conditions">Do you have any chronic health conditions?</label>
+        <input type="text" id="conditions" name="conditions"><br>
+      
+        <label for="hospitalized">Have you ever been hospitalized for any reason?</label>
+        <input type="text" id="hospitalized" name="hospitalized"><br>
+      
+        <label for="surgery">Have you ever had surgery?</label>
+        <input type="text" id="surgery" name="surgery"><br>
+      
+        <label for="medications">Do you currently take any medications?</label>
+        <input type="text" id="medications" name="medications"><br>
+      
+        <label for="adverse-reactions">Have you ever experienced any adverse reactions to medications or treatments?</label>
+        <input type="text" id="adverse-reactions" name="adverse-reactions"><br>
+      
+        <label for="allergies">Do you have any allergies?</label>
+        <input type="text" id="allergies" name="allergies"><br>
+      
+        <label for="symptoms">Have you experienced any symptoms related to your health recently?</label>
+        <input type="text" id="symptoms" name="symptoms"><br>
+      
+        <label for="tested">Have you been tested for any medical conditions recently?</label>
+        <input type="text" id="tested" name="tested"><br>
+      
+        <label for="doctor-visits">How often do you visit the doctor?</label>
+        <input type="text" id="doctor-visits" name="doctor-visits"><br>
+      
+        <label for="family-history">Do you have a family history of any medical conditions?</label>
+        <input type="text" id="family-history" name="family-history"><br>
+        
+        <input type="submit" value="Submit">
+        <p>Thank you for taking out time to feel this survey form.</p>
+      </form>
+
+</body>
+</html>
